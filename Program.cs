@@ -130,7 +130,7 @@ namespace Laboratorio_5
 
                 if (opcion == OPCION_CALCULAR_AREA)
                 {
-                    Log.Log("Calculando área...\n");
+                    Log.Write("Calculando área...\n");
                     Log.Success($"El área de tu {figura.Nombre} es {figura.Area()}\n");
                     PresionarParaContinuar();
                 }
